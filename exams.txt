@@ -1,0 +1,525 @@
+Mon 14 May
+AM
+01:30
+AQA
+8520/1
+GCSE/9FC
+Computer Science
+Mon 14 May
+AM
+01:30
+OCR
+J282/01
+GCSE/9FC
+Latin
+Mon 14 May
+PM
+01:45
+AQA
+8063/1
+GCSE/9FC
+Religious Education
+Tue 15 May
+AM
+00:35
+AQA
+8658/LF
+GCSE/9FC
+French
+Tue 15 May
+AM
+00:45
+AQA
+8658/RF
+GCSE/9FC
+French
+Tue 15 May
+AM
+00:45
+AQA
+8658/LH
+GCSE/9FC
+French
+Tue 15 May
+AM
+01:00
+AQA
+8658/RH
+GCSE/9FC
+French
+Tue 15 May
+PM
+01:45
+AQA
+8461/1H
+GCSE/9FC
+Biology
+Tue 15 May
+PM
+01:15
+AQA
+8464/B/1H
+GCSE/DA
+Combined - Biology
+Wed 16 May
+AM
+01:15
+AQA
+8582/1
+GCSE/9FC
+Physical Education
+Wed 16 May
+PM
+00:00
+AQA
+8063/2B
+GCSE/9FC
+Religious Education
+Wed 16 May
+PM
+00:00
+AQA
+8063/2Y
+GCSE/9FC
+Religious Education
+Thu 17 May
+AM
+01:45
+AQA
+8462/1H
+GCSE/9FC
+Chemistry
+Thu 17 May
+AM
+01:15
+AQA
+8464/C/1F
+GCSE/DA
+Combined - Chemistry
+Thu 17 May
+AM
+01:15
+AQA
+8464/C/1H
+GCSE/DA
+Combined - Chemistry
+Thu 17 May
+PM
+01:30
+AQA
+8520/2
+GCSE/9FC
+Computer Science
+Thu 17 May
+PM
+01:00
+OCR
+J282/03
+GCSE/9FC
+Latin
+Fri 18 May
+AM
+01:00
+AQA
+8658/WF
+GCSE/9FC
+French
+Fri 18 May
+AM
+01:15
+AQA
+8658/WH
+GCSE/9FC
+French
+Fri 18 May
+PM
+01:30
+OCR
+J292/01
+GCSE/9FC
+Greek
+Fri 18 May
+PM
+01:15
+AQA
+8582/2
+GCSE/9FC
+Physical Education
+Mon 21 May
+AM
+01:00
+OCR
+J282/05
+GCSE/9FC
+Latin
+Mon 21 May
+PM
+01:30
+EDEXL
+5EM033D
+GCSE
+Engineering
+Tue 22 May
+AM
+01:45
+AQA
+8702/1
+GCSE/9FC
+English Literature
+Tue 22 May
+PM
+01:30
+EDEXL
+1GB0 01
+GCSE/9FC
+Geography
+Wed 23 May
+AM
+00:45
+EDEXL
+5BS0101
+GCSE
+Business
+Wed 23 May
+AM
+00:45
+EDEXL
+5BS0601
+GCSE
+Business
+Wed 23 May
+AM
+01:00
+OCR
+J292/02
+GCSE/9FC
+Greek
+Wed 23 May
+PM
+01:45
+AQA
+8463/1H
+GCSE/9FC
+Physics
+Wed 23 May
+PM
+01:15
+AQA
+8464/P/1F
+GCSE/DA
+Combined - Physics
+Wed 23 May
+PM
+01:15
+AQA
+8464/P/1H
+GCSE/DA
+Combined - Physics
+Thu 24 May
+AM
+01:30
+EDEXL
+1MA1 1F
+GCSE/9FC
+Mathematics
+Thu 24 May
+AM
+01:30
+EDEXL
+1MA1 1H
+GCSE/9FC
+Mathematics
+Fri 25 May
+AM
+02:15
+AQA
+8702/2
+GCSE/9FC
+English Literature
+Mon 04 Jun
+AM
+01:15
+EDEXL
+1HI0 10
+GCSE/9FC
+History
+Mon 04 Jun
+PM
+01:00
+OCR
+A351/01
+GCSE
+Classical Civilisation
+Mon 04 Jun
+PM
+01:00
+OCR
+A351/02
+GCSE
+Classical Civilisation
+Tue 05 Jun
+AM
+01:45
+AQA
+8700/1
+GCSE/9FC
+English Language
+Tue 05 Jun
+PM
+01:30
+EDEXL
+1GB0 02
+GCSE/9FC
+Geography
+Wed 06 Jun
+AM
+00:35
+AQA
+8698/LF
+GCSE/9FC
+Spanish
+Wed 06 Jun
+AM
+00:45
+AQA
+8698/RF
+GCSE/9FC
+Spanish
+Wed 06 Jun
+AM
+00:45
+AQA
+8698/LH
+GCSE/9FC
+Spanish
+Wed 06 Jun
+AM
+01:00
+AQA
+8698/RH
+GCSE/9FC
+Spanish
+Wed 06 Jun
+PM
+01:30
+EDEXL
+5BS0501
+GCSE
+Business
+Wed 06 Jun
+PM
+01:45
+EDEXL
+1MU0 03
+GCSE/9FC
+Music
+Wed 06 Jun
+PM
+01:00
+OCR
+J292/04
+GCSE/9FC
+Greek
+Thu 07 Jun
+AM
+01:30
+EDEXL
+1MA1 2F
+GCSE/9FC
+Mathematics
+Thu 07 Jun
+AM
+01:30
+EDEXL
+1MA1 2H
+GCSE/9FC
+Mathematics
+Thu 07 Jun
+PM
+01:00
+OCR
+A352/01
+GCSE
+Classical Civilisation
+Thu 07 Jun
+PM
+01:00
+OCR
+A352/02
+GCSE
+Classical Civilisation
+Fri 08 Jun
+AM
+01:45
+AQA
+8700/2
+GCSE/9FC
+English Language
+Fri 08 Jun
+PM
+01:45
+EDEXL
+1HI0 27
+GCSE/9FC
+History
+Mon 11 Jun
+AM
+01:45
+AQA
+8461/2H
+GCSE/9FC
+Biology
+Mon 11 Jun
+AM
+01:15
+AQA
+8464/B/2F
+GCSE/DA
+Combined - Biology
+Mon 11 Jun
+AM
+01:15
+AQA
+8464/B/2H
+GCSE/DA
+Combined - Biology
+Mon 11 Jun
+PM
+01:30
+EDEXL
+1GB0 03
+GCSE/9FC
+Geography
+Tue 12 Jun
+AM
+01:30
+EDEXL
+1MA1 3F
+GCSE/9FC
+Mathematics
+Tue 12 Jun
+AM
+01:30
+EDEXL
+1MA1 3H
+GCSE/9FC
+Mathematics
+Tue 12 Jun
+PM
+01:20
+EDEXL
+1HI0 31
+GCSE/9FC
+History
+Wed 13 Jun
+AM
+01:45
+AQA
+8462/2H
+GCSE/9FC
+Chemistry
+Wed 13 Jun
+AM
+01:15
+AQA
+8464/C/2F
+GCSE/DA
+Combined - Chemistry
+Wed 13 Jun
+AM
+01:15
+AQA
+8464/C/2H
+GCSE/DA
+Combined - Chemistry
+Thu 14 Jun
+AM
+01:00
+AQA
+8698/WF
+GCSE/9FC
+Spanish
+Thu 14 Jun
+AM
+01:15
+AQA
+8698/WH
+GCSE/9FC
+Spanish
+Thu 14 Jun
+PM
+02:00
+AQA
+45601
+GCSE
+Design Technology
+Thu 14 Jun
+PM
+01:00
+OCR
+A353/01
+GCSE
+Classical Civilisation
+Thu 14 Jun
+PM
+01:00
+OCR
+A353/02
+GCSE
+Classical Civilisation
+Fri 15 Jun
+AM
+01:45
+AQA
+8463/2H
+GCSE/9FC
+Physics
+Fri 15 Jun
+AM
+01:15
+AQA
+8464/P/2F
+GCSE/DA
+Combined - Physics
+Fri 15 Jun
+AM
+01:15
+AQA
+8464/P/2H
+GCSE/DA
+Combined - Physics
+Mon 18 Jun
+PM
+01:15
+AQA
+47601
+GCSE
+General Studies
+Tue 19 Jun
+AM
+02:00
+AQA
+45501
+GCSE
+Design Technology
+Tue 19 Jun
+AM
+01:30
+AQA
+8360/1
+GCSE
+Further Maths
+Wed 20 Jun
+AM
+02:00
+AQA
+47602
+GCSE
+General Studies
+Thu 21 Jun
+PM
+02:00
+AQA
+8360/2
+GCSE
+Further Maths
