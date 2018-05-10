@@ -26,7 +26,7 @@ def main():
     update_id = last_update(get_updates_json(url))['update_id']
     while True:
         if update_id == last_update(get_updates_json(url))['update_id']:
-            now = datetime.date(2018,5, 16)
+            now = datetime.datetime.now()
             
             send_mess(get_chat_id(last_update(get_updates_json(url))),("Date: " + str(now)))
             day = str(now.day)
@@ -55,6 +55,7 @@ def main():
                         newcounter += 1
                 counter += 1
             messages_length = len(messages)
+            exams = []
             if messages_length == 0:
                 final_message = "There are no scheduled examinations, for today."
             else:
@@ -64,7 +65,7 @@ def main():
                 examinationboard = ""
                 subject = ""
                 
-                exams = []
+               
                 print(messages_length)
                 print(messages)
                 while anumber <= (messages_length-6):
@@ -75,16 +76,17 @@ def main():
                     setting = messages[anumber+1]
                     exams.append(examinationboard + " " + subject + " - " + setting + " - " + my_time)
                     anumber = anumber + 7
-
-            print(exams)
-
             send_mess(get_chat_id(last_update(get_updates_json(url))), final_message)
-            counter = 0
-            examsmessage = ""
-            examslen = len(exams)-1
-            while counter != examslen + 1:
-                send_mess(get_chat_id(last_update(get_updates_json(url))), exams[counter])
-                counter += 1
+            
+            if len(exams) != 0:
+                print(exams)
+
+                counter = 0
+                examsmessage = ""
+                examslen = len(exams)-1
+                while counter != examslen + 1:
+                    send_mess(get_chat_id(last_update(get_updates_json(url))), exams[counter])
+                    counter += 1
             update_id += 1
     sleep(1)       
 
