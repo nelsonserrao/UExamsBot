@@ -26,7 +26,65 @@ def main():
     update_id = last_update(get_updates_json(url))['update_id']
     while True:
         if update_id == last_update(get_updates_json(url))['update_id']:
-            send_mess(get_chat_id(last_update(get_updates_json(url))), 'test')
+            now = datetime.date(2018,5, 16)
+            
+            send_mess(get_chat_id(last_update(get_updates_json(url))),("Date: " + str(now)))
+            day = str(now.day)
+            if len(day) == 1:
+                day = "0" + day 
+            month = now.month
+            timetable = []
+            f = open("exams.txt")
+            for line in f:
+                timetable.append(line)
+            f.close()
+            counter = 0
+            messages = []
+            test = True
+            while counter != 254:
+                if counter % 7 == 0:
+                    timetable_date = str(timetable[counter])
+                    daynumber = timetable_date[4] + timetable_date[5]
+        
+                if (now.strftime("%b") in timetable_date) and (day == daynumber):
+                    newcounter = counter
+                    while newcounter != (counter + 1):
+                        line=timetable[newcounter]
+                        line = line.strip('\n')
+                        messages.append(line)
+                        newcounter += 1
+                counter += 1
+            messages_length = len(messages)
+            if messages_length == 0:
+                final_message = "There are no scheduled examinations, for today."
+            else:
+                final_message = "There are scheduled examinations today. Please note the following exams will be taking place today: " 
+                anumber = 0
+                counter = 0
+                examinationboard = ""
+                subject = ""
+                
+                exams = []
+                print(messages_length)
+                print(messages)
+                while anumber <= (messages_length-6):
+                    examinationboard = (messages[anumber+3])
+                    subject = (messages[anumber+6])
+                    my_time = messages[anumber+2]
+                    my_time = (str(sum(i*j for i, j in zip(map(int, my_time.split(':')), [60, 1, 1/60])))) + " mins"
+                    setting = messages[anumber+1]
+                    exams.append(examinationboard + " " + subject + " - " + setting + " - " + my_time)
+                    anumber = anumber + 7
+
+            print(exams)
+
+            send_mess(get_chat_id(last_update(get_updates_json(url))), final_message)
+            counter = 0
+            examsmessage = ""
+            examslen = len(exams)-1
+            while counter != examslen + 1:
+                send_mess(get_chat_id(last_update(get_updates_json(url))), exams[counter])
+                counter += 1
             update_id += 1
     sleep(1)       
 
@@ -36,67 +94,5 @@ if __name__ == '__main__':
 chat_id = get_chat_id(last_update(get_updates_json(url)))
 
 send_mess(chat_id, 'Your message goes here')
-
-
-#'now = datetime.datetime.now()
-
-#print(now)
-
-#day = str(now.day)
-#if len(day) == 1:
-    #day = "0" + day
-    
-#month = now.month
-
-
-timetable = []
-
-f = open("exams.txt")
-for line in f:
-    timetable.append(line)
-f.close()
-
-print(timetable[0])
-
-counter = 0 
-messages = []
-
-test = True
-while counter != 254:
-    if counter % 7 == 0:
-        timetable_date = str(timetable[counter])
-        daynumber = timetable_date[4] + timetable_date[5]
-        
-        #if (now.strftime("%b") in timetable_date) and (day == daynumber):
-        if ("May" in timetable_date) and ("16" == daynumber):
-            newcounter = counter
-            while newcounter != (counter + 7):
-                line=timetable[newcounter]
-                line = line.strip('\n')
-                messages.append(line)
-                newcounter += 1
-    counter += 1
-   
-
-
-
-messages_length = len(messages)
-print(messages_length)
-print(messages[5])
-
-if messages_length != 0:
-    number = 1
-    final_message = []
-
-while number != (messages_length + 1):
-    final_message.append(messages[number+2])
-    final_message.append(messages[number+5])
-    my_time = messages[number+1]
-    t1 = sum(i*j for i, j in zip(map(int, my_time.split(':')), [60, 1, 1/60]))
-    final_message.append(messages[number])
-    final_message.append(str(t1) + " mins")
-    number +=7
-
-print(final_message)
 
 
